@@ -1,0 +1,30 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.group {
+  width: 310px;
+  background: #335;
+  display: flex;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px;
+}
+
+input,
+select {
+  background: none;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+input {
+  padding-left: 15px;
+}
+select {
+  padding: 20px;
+  cursor: pointer;
+  background-color: #333;
+}
